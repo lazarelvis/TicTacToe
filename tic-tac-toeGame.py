@@ -60,7 +60,7 @@ def is_draw(board):
     print("Draw!")
     return True
 
-# winer 8 posib
+# winer 8 possibilities
 def is_win(board):
     winner = None
     for i in range(3):
